@@ -1,6 +1,6 @@
 package br.com.jpfaria.android;
 
-import static com.udinic.accounts_authenticator_example.authentication.AccountGeneral.AUTHTOKEN_TYPE_FULL_ACCESS;
+import static br.com.adaptation.android.auth.AccountGeneral.AUTHTOKEN_TYPE_FULL_ACCESS;
 
 import android.accounts.AccountManager;
 import android.accounts.AccountManagerCallback;
@@ -13,7 +13,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
-import com.udinic.accounts_authenticator_example.authentication.AccountGeneral;
+import br.com.adaptation.android.auth.AccountGeneral;
 
 public class MainActivity extends Activity {
 
