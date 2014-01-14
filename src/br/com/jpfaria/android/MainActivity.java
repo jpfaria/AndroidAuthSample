@@ -1,4 +1,5 @@
-package com.example.androidauthsample;
+package br.com.jpfaria.android;
+
 
 import android.os.Bundle;
 import android.app.Activity;
