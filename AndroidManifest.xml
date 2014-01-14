@@ -38,7 +38,7 @@
         <activity android:name="br.com.adaptation.android.auth.AuthenticatorActivity" android:label="@string/login_label"/>
         <activity android:name="br.com.adaptation.android.auth.SignUpActivity" android:label="@string/signup_title"/>
         
-        <service android:name="br.com.adaptation.android.auth.UdinicAuthenticatorService">
+        <service android:name="br.com.adaptation.android.auth.AuthenticatorService">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
             </intent-filter>
