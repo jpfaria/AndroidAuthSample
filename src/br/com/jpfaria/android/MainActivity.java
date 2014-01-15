@@ -1,7 +1,5 @@
 package br.com.jpfaria.android;
 
-import static br.com.adaptation.android.auth.AccountGeneral.AUTHTOKEN_TYPE_FULL_ACCESS;
-
 import android.accounts.AccountManager;
 import android.accounts.AccountManagerCallback;
 import android.accounts.AccountManagerFuture;
@@ -12,7 +10,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
-
 import br.com.adaptation.android.auth.AccountGeneral;
 
 public class MainActivity extends Activity {
@@ -25,7 +22,6 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		mAccountManager = AccountManager.get(this);
-		
 		findViewById(R.id.btnAddAccount).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
